@@ -1,11 +1,18 @@
 import VsCard from './VsCard'
+import SearchBar from './SearchBar';
 
 function Discovery(props) {
     return (
         <div>
             <h1>Discover</h1>
-            <VsCard />
-            <VsCard />
+            <SearchBar />
+            <button>Search</button>
+            <div ClassName="PopularGamesCard">
+                <VsCard />
+                <VsCard />
+                <VsCard />
+            </div>
+            
             
         </div>       
     )

@@ -2,7 +2,7 @@
 
 function Rating(props) {
     return (
-        <h1>test for Rating</h1>
+        <img src='' alt='image of game odds'/>
     )
 }
 
